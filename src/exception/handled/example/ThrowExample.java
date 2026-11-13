@@ -3,6 +3,7 @@ package exception.handled.example;
 public class ThrowExample {
     public static void main(String[] args) {
         try {
+            //add some lines
             int age = 14;
             if (age >= 18) {
                 System.out.println("Age is valid to vote");
@@ -12,5 +13,6 @@ public class ThrowExample {
         } catch (Exception e){
             System.out.println("Exception occurred : "+e.getMessage()+"---"+e.getClass());
         }
+        //add some lines
     }
 }

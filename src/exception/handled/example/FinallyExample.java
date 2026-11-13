@@ -18,5 +18,6 @@ public class FinallyExample {
             System.out.println("b is : " + b);
             System.out.println("res is : " + res);
         }
+        //add some lines
     }
 }
